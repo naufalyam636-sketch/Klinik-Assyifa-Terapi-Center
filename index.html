@@ -365,7 +365,7 @@
             </button>
           </div>
           <div style="margin-top: 18px; color: var(--muted); font-size: 14px">
-            Jam Operasional: Senin - Sabtu, 08:00 - 17:00
+            Jam Operasional: Senin - Sabtu, 09:00 - 21:00
           </div>
         </div>
 
@@ -575,7 +575,7 @@
           <div class="card testi">
             <div style="font-weight: 700">Andi, 34</div>
             <div class="muted" style="font-size: 13px">
-              "Pelayanan ramah dan membantu saya pulih setelah cedera olahraga."
+              "Pelayanan ramah dan sangat membantu saya."
             </div>
           </div>
           <div class="card testi">
@@ -587,7 +587,7 @@
           <div class="card testi">
             <div style="font-weight: 700">Rudi, 45</div>
             <div class="muted" style="font-size: 13px">
-              "Pijat refleksinya sangat relaks, rekomendasi!"
+              "pengobatan yang sangat nyaman, rekomendasi!"
             </div>
           </div>
         </div>
@@ -741,15 +741,14 @@
           return false;
         }
 
-        const noUmi = "+62 822 8459 8626";
+        const noUmi = "6282284598626";
 
-        const text =
-          `Halo Klinik Assyifa,%0ASaya ingin mendaftar:%0A` +
-          `Nama: ${name}%0A` +
-          `No HP: ${phone}%0A` +
-          `Layanan: ${service}%0A` +
-          `Tanggal: ${date}%0A` +
-          `Pesan: ${message}`;
+        const text = `Halo Klinik Assyifa,%0ASaya ingin mendaftar:%0A
+        + Nama: ${name}%0A
+        + No HP: ${phone}%0A
+        + Layanan: ${service}%0A
+        + Tanggal: ${date}%0A
+        + Pesan: ${message}`;
 
         // Buat link WA
         const waLink = `https://wa.me/${noUmi}?text=${text}`;
